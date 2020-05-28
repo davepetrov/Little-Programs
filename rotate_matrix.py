@@ -39,5 +39,5 @@ for i in range(size):
 p(arr, size)            
 #Peform rotation magic on original matrix
 rot = rotate_matrix(arr,3)
-#Print rotates
+#Print rotated
 p(rot, size)
