@@ -15,6 +15,8 @@ def rotate_matrix(arr, size):
         for j in range(size):
             #Tranpose
             rot[i][j] = arr[j][i]
+            
+    for i in range(size):
         for j in range(size//2):
             #Flip accross center
             rot[i][j], rot[i][size-j-1] = rot[i][size-j-1], rot[i][j]
